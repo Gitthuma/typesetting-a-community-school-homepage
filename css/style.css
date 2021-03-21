@@ -131,6 +131,7 @@ a:active {
 }
 
 /*Added external link icon to external links*/
+
 a[href*="http"] {
   background: url("icon/external-link-52.png") no-repeat 100% 0;
   background-size: 18px 18px;
@@ -138,10 +139,30 @@ a[href*="http"] {
 }
 
 /*Added list-style-type of square to the ul and lower-alpha to ol*/
+
 ul {
   list-style-type: square;
 }
 
 ol {
   list-style-type: lower-alpha;
+}
+
+/*navigation menu styling*/
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  outline: none;
+  text-decoration: none;
+  border: 1px solid #a66;
+  padding: 2px;
+  display: block;
+  width: 80%;
+  padding: 20%, 15%;
+  text-align: center;
+  margin-bottom: 10%;
+  line-height: 2;
 }
