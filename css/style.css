@@ -77,8 +77,8 @@ html {
 
 h1,
 h2 {
-  font-family: "cagliostroregular"; /* Font family for heading elements*/
-  font-size: 3rem;
+  font-family: "cagliostroregular"; /* Added font family to heading elements*/
+  font-size: 3rem; /*Added rem font size to heading elements*/
 }
 
 p,
@@ -86,6 +86,6 @@ a,
 ul,
 ol,
 li {
-  font-family: "capsuularegular"; /* Font family for body elements*/
-  font-size: 2rem;
+  font-family: "capsuularegular"; /* Added font family to other body elements*/
+  font-size: 2rem; /*Added rem font size to other body elements*/
 }
