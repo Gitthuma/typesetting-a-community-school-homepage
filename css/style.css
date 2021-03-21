@@ -100,3 +100,15 @@ h1 {
 h2 + p {
   text-indent: 20px; /*Gave the first paragraph after each heading in the <section> a little bit of text-indentation of 20px.*/
 }
+
+a:visited {
+  color: #a66; /*Added color to the visited state*/
+}
+
+a:focus {
+  background: rgba(170, 102, 102, 0.4); /*Added color to the focus state*/
+}
+
+a:hover {
+  background: rgba(170, 102, 102, 0.4); /*Added color to the hover state*/
+}
