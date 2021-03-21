@@ -103,6 +103,7 @@ h2 + p {
 
 a {
   text-decoration: underline; /*Make links underlined by default*/
+  outline: none; /*Removed the default focus outline from ALL the links on the page.*/
 }
 
 a:visited {
