@@ -101,14 +101,20 @@ h2 + p {
   text-indent: 20px; /*Gave the first paragraph after each heading in the <section> a little bit of text-indentation of 20px.*/
 }
 
+a {
+  text-decoration: underline; /*Make links underlined by default*/
+}
+
 a:visited {
   color: #a66; /*Added color to the visited state*/
 }
 
 a:focus {
   background: rgba(170, 102, 102, 0.4); /*Added color to the focus state*/
+  text-decoration: none; /*Make links-underline disappear on focus*/
 }
 
 a:hover {
   background: rgba(170, 102, 102, 0.4); /*Added color to the hover state*/
+  text-decoration: none; /*Make links-underline disappear on hover*/
 }
