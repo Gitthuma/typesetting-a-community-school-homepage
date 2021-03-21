@@ -73,6 +73,8 @@ footer {
 
 html {
   font-size: 10px; /*Added a site-wide font-size of 10px*/
+  letter-spacing: 1.5px; /*Gave body text some letter-spacing*/
+  word-spacing: 1.5px; /*Gave body text some word-spacing*/
 }
 
 h1,
