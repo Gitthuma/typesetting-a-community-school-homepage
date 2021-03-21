@@ -136,3 +136,12 @@ a[href*="http"] {
   background-size: 18px 18px;
   padding-right: 20px;
 }
+
+/*Added list-style-type of square to the ul and lower-alpha to ol*/
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-alpha;
+}
