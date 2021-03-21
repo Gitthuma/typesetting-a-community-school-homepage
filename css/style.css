@@ -129,3 +129,10 @@ a:hover {
 a:active {
   background: #a66; /*Gave active state a background color to make it noticeable*/
 }
+
+/*Added external link icon to external links*/
+a[href*="http"] {
+  background: url("icon/external-link-52.png") no-repeat 100% 0;
+  background-size: 18px 18px;
+  padding-right: 20px;
+}
