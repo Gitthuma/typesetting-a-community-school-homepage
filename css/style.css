@@ -71,13 +71,14 @@ footer {
 
 /* WRITE YOUR CODE BELOW HERE */
 
-body {
+html {
   font-size: 10px; /*Added a site-wide font-size of 10px*/
 }
 
 h1,
 h2 {
   font-family: "cagliostroregular"; /* Font family for heading elements*/
+  font-size: 3rem;
 }
 
 p,
@@ -86,4 +87,5 @@ ul,
 ol,
 li {
   font-family: "capsuularegular"; /* Font family for body elements*/
+  font-size: 2rem;
 }
