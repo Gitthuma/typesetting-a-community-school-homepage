@@ -36,3 +36,5 @@ Lists:
 Navigation menu:
 
 - Style your navigation menu so that it has an appropriate look for the look and feel for the page.
+
+Live web: https://gitthuma.github.io/typesetting-a-community-school-homepage/
