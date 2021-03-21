@@ -88,4 +88,5 @@ ol,
 li {
   font-family: "capsuularegular"; /* Added font family to other body elements*/
   font-size: 2rem; /*Added rem font size to other body elements*/
+  line-height: 1.5; /*Gave body text a line-height of 1.5.*/
 }
